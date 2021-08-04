@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Baloo Bhaina 2', cursive;
 }
 
 .screen {
@@ -17,8 +17,8 @@
     flex-direction: column;
     padding: 60px;
     align-items: center;
-    border-left: 3px solid teal;
-    background-color: black;
+    border-left: 3px solid  hsl(14deg 100% 57%);
+    background-color:  hsl(0deg 0% 0% / 92%);
 }
 
 .desc>h1, .list li a, .screen>.btn {
@@ -34,12 +34,11 @@
 }
 
 .desc>h1 {
-    margin-bottom: 50px;
+    margin-bottom: 0px;
 }
 
 hr {
-    margin-top: 120px;
-    margin-bottom: 10px;
+    margin-bottom: 57px;
 }
 
 footer {
@@ -73,11 +72,12 @@ footer {
     width: 840px;
     margin-top: 25px;
     margin-bottom: 40px;
-    background-color: hsl(0deg 0% 100% / 6%);
-    border-left: 3px solid teal;
+    background-color: hsl(15deg 100% 7% / 22%);
+    border-left: 3px solid  hsl(14deg 100% 57%);
     padding-left: 40px;
     color: white;
     padding-top: 40px;
+    border-radius: 4px;
 }
 
 .screen .btn {
@@ -87,11 +87,11 @@ footer {
     border-radius: 4px;
     cursor: pointer;
     background-color: hsl(0deg 0% 100% / 6%);
-    border-left: 6px solid teal;
+    border-left: 6px solid  hsl(14deg 100% 57%);
 }
 
 .screen-collapse {
-    animation: anim-screen 0.8s ease 1 forwards;
+    animation: anim-screen 1.4s cubic-bezier(0.6, 0.04, 0.98, 0.335) 1 forwards;
 }
 
 @keyframes anim-screen {
@@ -116,7 +116,7 @@ footer {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: rgb(0, 0, 0);
+    background-color:  hsl(0deg 0% 0% / 92%);
     position: absolute;
     top: 0;
     left: 0;
